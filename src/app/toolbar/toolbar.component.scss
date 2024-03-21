@@ -1,0 +1,19 @@
+.opciones {
+    display: flex;
+    justify-content: flex-start; 
+    list-style: none; 
+    background-color: #a5d8ea;
+    color: black;
+    
+    li {
+      margin-left: 100px; 
+      font-size: 20px;
+      &:first-child {
+        margin-left: 60; 
+      }
+    }
+  }
+
+  .seleccion{
+    text-decoration: underline;
+  }
